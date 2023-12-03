@@ -1,5 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
+import { people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import ahmet from "../assets/ahmet.jpeg"
 export const navLinks = [
   {
     id: "home",
@@ -7,11 +7,11 @@ export const navLinks = [
   },
 
   {
-    id: "Our Team",
+    id: "crew",
     title: "Ekibimiz",
   },
   {
-    id: "Projects",
+    id: "projects",
     title: "Projelerimiz",
   },
 
@@ -28,27 +28,21 @@ export const features = [
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Yüzde 100 Güvende",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Bilgilerinizin ve işlemlerinizin güvenliği için proaktif adımlar atıyoruz.",
   },
-  {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+
 ];
 
 export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Efficiency is key.",
+    name: "Ahmet Kirmizi",
+    title: "Backend Developer",
+    img: ahmet,
   },
   {
     id: "feedback-2",
@@ -71,13 +65,13 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Members",
+    value: "100+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "2+",
   },
   {
     id: "stats-3",
@@ -91,22 +85,6 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
         name: "Terms & Services",
         link: "https://www.hoobank.com/terms-and-services/",
       },
@@ -116,16 +94,8 @@ export const footerLinks = [
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
         name: "Partners",
         link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
       },
       {
         name: "Blog",
