@@ -1,8 +1,10 @@
 import React from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import Crew from "./Crew.jsx";
+import UlasimdaYapayZeka from "./ulasimdaYapayZeka.jsx";
 import styles from "../style.js";
+import JetMotoru from "./jetMotoru.jsx";
+import Helikopter from "./helikopter.jsx";
 const homeTab = () => (
     <section>
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
@@ -16,22 +18,20 @@ const homeTab = () => (
             </div>
         </div>
         <Tabs className="justify-center text-white">
-            <TabList className="m-3">
+            <TabList className="ml-3 mr-3">
                 <Tab>Ulaşımda Yapay Zeka</Tab>
-                <Tab>Jet Takimi</Tab>
-                <Tab>Psikoloji</Tab>
+                <Tab>Jet Motoru Tasarimi</Tab>
+                <Tab>Helikopter Tasarimi</Tab>
             </TabList>
 
             <TabPanel>
-                <Crew></Crew>
+                <UlasimdaYapayZeka></UlasimdaYapayZeka>
             </TabPanel>
             <TabPanel>
-                {/*second content*/}
-                <Crew></Crew>
+                <JetMotoru></JetMotoru>
             </TabPanel>
             <TabPanel>
-                {/*third content*/}
-                <Crew></Crew>
+                <Helikopter></Helikopter>
             </TabPanel>
         </Tabs>
     </section>

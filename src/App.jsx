@@ -1,11 +1,10 @@
 import styles from "./style";
 import {Business , Footer, Navbar } from "./components";
-import Crew from "../src/components/Crew.jsx"
+import UlasimdaYapayZeka from "./components/ulasimdaYapayZeka.jsx"
 import Projects from "./components/Projects.jsx";
 import style from "./style";
 import HomeTab from "./components/homeTab.jsx";
 import Intro from "./components/intro.jsx";
-
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>

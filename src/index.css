@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 :root {
+  overflow-y: scroll;
+
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
@@ -17,7 +19,14 @@
 * {
   scroll-behavior: smooth;
 }
+:root::-webkit-scrollbar{
+  display: none;
+}
 
+.react-tabs__tab--selected.custom-selected-tab {
+  background-color: #5ce1e6;
+  color: white;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

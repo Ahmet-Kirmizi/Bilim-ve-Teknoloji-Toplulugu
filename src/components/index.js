@@ -3,10 +3,9 @@ import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
-import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
-import Testimonials from "./Crew.jsx";
+import Testimonials from "./ulasimdaYapayZeka.jsx";
 import Hero from "./intro.jsx";
 
 export {
@@ -15,7 +14,6 @@ export {
   CardDeal,
   Business,
   Clients,
-  CTA,
   Stats,
   Footer,
   Testimonials,

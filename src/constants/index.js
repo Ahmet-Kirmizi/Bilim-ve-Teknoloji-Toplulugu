@@ -1,5 +1,7 @@
 import { people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 import ahmet from "../assets/ahmet.jpeg"
+import cagan from "../assets/cagan_yunus_mayda.jpeg"
+import semih from "../assets/Semih_Arda_Gedik.jpeg"
 export const navLinks = [
   {
     id: "home",
@@ -21,45 +23,58 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Ödüller",
+    title: "Misyonumuz",
     content:
-      "Topluluğumuz henüz taze bir soluk olduğundan dolayı ödül kazanamamış olabiliriz, ancak bir araya gelip büyüdükçe, beraberinde getirdiğimiz yenilik ve enerji ile gelecekte birçok başarıya imza atacağımıza inanıyoruz. ",
+      "Bilim ve Teknoloji Topluluğu, ODTÜ'de bilimsel araştırmalar yapar, mühendislik yazılımlarını öğretir, yarışmalara katılır ve başarı elde eder, ayrıca bilim-teknoloji camiasından değerleri konuklarla paylaşır.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Yüzde 100 Güvende",
+    title: "Ekiplerimiz",
     content:
-      "Bilgilerinizin ve işlemlerinizin güvenliği için proaktif adımlar atıyoruz.",
+      "Sosyal isler Ekibi         Aktivite Ekibi      Finans Ekibi     Bilim Okur Yazarlar Ekibi Organizasyon Ekibi ",
+  },  {
+    id: "feature-2",
+    icon: shield,
+    title: "Takimlarimiz",
+    content:
+      "Arastirma Takimi Ulaşımda Yapay ZekaJet Motor Tasarimi Psikolojide Teknolojik Uygulamalar",
   },
 
 ];
 
-export const feedback = [
+export const ulasimdaYapayZeka = [
   {
-    id: "feedback-1",
+    id: "Ahmet Kirmizi",
     content:
       "Efficiency is key.",
     name: "Ahmet Kirmizi",
     title: "Backend Developer",
     img: ahmet,
   },
+
+];
+export const jetMotoru = [
   {
-    id: "feedback-2",
+    id: "Çağan yunus Mayda",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Efficiency is key.",
+    name: "Çağan yunus Mayda",
+    title: "Ekip Uyesi",
+    img: cagan,
   },
+
+]
+;export const helikopter = [
   {
-    id: "feedback-3",
+    id: "semih arda gedik",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Efficiency is key.",
+    name: "Semih Arda Gedik",
+    title: "Ekip Uyesi",
+    img: semih,
   },
+
 ];
 
 export const stats = [
