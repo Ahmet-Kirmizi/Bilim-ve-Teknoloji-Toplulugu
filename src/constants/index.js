@@ -47,9 +47,9 @@ export const ulasimdaYapayZeka = [
   {
     id: "Ahmet Kirmizi",
     content:
-      "Efficiency is key.",
+      "Algoritma ve yapay zeka gelistiricisi.",
     name: "Ahmet Kirmizi",
-    title: "Backend Developer",
+    title: "Ekip Uyesi",
     img: ahmet,
   },
 

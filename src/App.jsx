@@ -5,6 +5,7 @@ import Projects from "./components/Projects.jsx";
 import style from "./style";
 import HomeTab from "./components/homeTab.jsx";
 import Intro from "./components/intro.jsx";
+import JoinUsForm from "./components/joinUsForm.jsx";
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -24,6 +25,7 @@ const App = () => (
         <Business />
           <HomeTab></HomeTab>
           <Projects/>
+          <JoinUsForm/>
         <Footer />
       </div>
     </div>
