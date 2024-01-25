@@ -1,6 +1,9 @@
+'use client';
+
 import React, { Component } from "react";
 import axios from "axios";
 import styles from "../style.js";
+import { Dropdown } from 'flowbite-react';
 
 class JoinUsForm extends Component {
     state = {
@@ -10,13 +13,16 @@ class JoinUsForm extends Component {
         student_no: "",
         phone: "",
         department: "",
-        extra_info: "", // Changed details to extra_info
+        extra_info: "",
+        branch: "",
     };
 
     handleInputChange = (e) => {
         this.setState({ [e.target.name]: e.target.value });
     };
-
+    handleBranchChange = (selectedBranch) => {
+        this.setState({ branch: selectedBranch });
+    };
     handleSubmit = async (e) => {
         e.preventDefault();
 
@@ -86,7 +92,7 @@ class JoinUsForm extends Component {
                         </div>
                         <div className="relative z-0 w-full mb-5 group">
                             <input
-                                type="text"
+                                type="email"
                                 name="email"
                                 id="email"
                                 className="block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -159,6 +165,7 @@ class JoinUsForm extends Component {
                             </label>
                         </div>
                     </div>
+
                     <div className="grid md:grid-cols md:gap-6">
                         <div className="relative z-0 w-full mb-5 group">
                             <input
@@ -178,7 +185,18 @@ class JoinUsForm extends Component {
                                 Eklemek istedigi bilgiler
                             </label>
                         </div>
+
                     </div>
+                    <div className="relative z-0 w-full mb-5 mt-1 group  bg-gray-gradient grid">
+                        <Dropdown label="Katılmak istediğin takım" className=" text-black border-0  " dismissOnClick={true} value={this.state.branch} onChange={this.handleBranchChange}>
+                            <Dropdown.Item>Ulaşımda Yapay Zeka</Dropdown.Item>
+                            <Dropdown.Item>Jet Motoru Tasarımı</Dropdown.Item>
+                            <Dropdown.Item>Helikopter Tasarımı</Dropdown.Item>
+                            <Dropdown.Item>Psikolojide Teknoloji</Dropdown.Item>
+                            <Dropdown.Item>İnsanlık Yararına Teknoloji Yarışması </Dropdown.Item>
+                        </Dropdown>
+                    </div>
+
                     <button
                         type="submit"
                         className="text-white bg-blue-gradient hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

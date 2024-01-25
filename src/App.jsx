@@ -6,6 +6,8 @@ import Intro from "./components/intro.jsx";
 import JoinUsForm from "./components/joinUsForm.jsx";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Ekiplerimiz from "./components/homeTab.jsx";
+import YoutubeEmbed from "./components/iframe.jsx";
 
 const App = () => (
 
@@ -25,8 +27,8 @@ const App = () => (
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Business/>
-                    <HomeTab></HomeTab>
-                    <Projects/>
+                    <Ekiplerimiz></Ekiplerimiz>
+                    {/*<YoutubeEmbed embedId={"KCMH7nSjUb0"}></YoutubeEmbed>*/}
                     <JoinUsForm/>
                     <Footer/>
                 </div>

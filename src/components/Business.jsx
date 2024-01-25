@@ -24,12 +24,6 @@ const Business = () =>  (
       <h2 className={styles.heading2}>
         Siz Sponsor olun, <br className="sm:block hidden" /> biz yapalım.
       </h2>
-      {/*<p className={`${styles.paragraph} max-w-[470px] mt-5`}>*/}
-      {/*  With the right credit card, you can improve your financial life by*/}
-      {/*  building credit, earning rewards and saving money. But with hundreds*/}
-      {/*  of credit cards on the market.*/}
-      {/*</p>*/}
-
       <Button styles={`mt-10`} />
     </div>
 

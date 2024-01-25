@@ -1,7 +1,13 @@
 import { people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-import ahmet from "../assets/ahmet.jpeg"
-import cagan from "../assets/cagan_yunus_mayda.jpeg"
-import semih from "../assets/Semih_Arda_Gedik.jpeg"
+import ahmet from "../assets/ulasimdayapayzeka/ahmet.jpeg";
+import arda from "../assets/ulasimdayapayzeka/arda.jpeg";
+import cagan from "../assets/jet/cagan_yunus_mayda.jpeg"
+import semih from "../assets/jet/Semih_Arda_Gedik.jpeg"
+import ayse from "../assets/helikopter/ayse_sude_guner.jpg"
+import yaren from "../assets/helikopter/yaren_elis.jpeg"
+import goals from "../assets/goals.png"
+import community from "../assets/community.png"
+import github from "../assets/github.png"
 export const navLinks = [
   {
     id: "home",
@@ -22,20 +28,20 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: goals,
     title: "Misyonumuz",
     content:
-      "Bilim ve Teknoloji Topluluğu, ODTÜ'de bilimsel araştırmalar yapar, mühendislik yazılımlarını öğretir, yarışmalara katılır ve başarı elde eder, ayrıca bilim-teknoloji camiasından değerleri konuklarla paylaşır.",
+      "Bilim ve Teknoloji Topluluğu, ODTÜ'de bilimsel araştırmalar yapmak, mühendislik yazılımlarını öğretmek, yurt içi ve dışında yarışmalara katılıp başarı elde etmek ayrıca bilim ve teknoloji camiasından önemli değerleri üyelerimizle tanıştırmak üzere kurulmuştur.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: community,
     title: "Ekiplerimiz",
     content:
       "Sosyal isler Ekibi         Aktivite Ekibi      Finans Ekibi     Bilim Okur Yazarlar Ekibi Organizasyon Ekibi ",
   },  {
     id: "feature-2",
-    icon: shield,
+    icon: community,
     title: "Takimlarimiz",
     content:
       "Arastirma Takimi Ulaşımda Yapay ZekaJet Motor Tasarimi Psikolojide Teknolojik Uygulamalar",
@@ -51,6 +57,13 @@ export const ulasimdaYapayZeka = [
     name: "Ahmet Kirmizi",
     title: "Ekip Uyesi",
     img: ahmet,
+  },  {
+    id: "Arda Vamık",
+    content:
+      "Literatür araştırmacısı.",
+    name: "Arda Vamık",
+    title: "Ekip Uyesi",
+    img: arda,
   },
 
 ];
@@ -73,6 +86,22 @@ export const jetMotoru = [
     name: "Semih Arda Gedik",
     title: "Ekip Uyesi",
     img: semih,
+  },
+  {
+    id: "Ayse Sude Guner",
+    content:
+      "Efficiency is key.",
+    name: "Ayse Sude Guner",
+    title: "Ekip Uyesi",
+    img: ayse,
+  },
+  {
+    id: "Yaren Elis",
+    content:
+      "Efficiency is key.",
+    name: "Yaren Elis",
+    title: "Ekip Uyesi",
+    img: yaren,
   },
 
 ];
@@ -97,41 +126,42 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Kullanışlı Linkler",
     links: [
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Haklar ve Servisler",
+        link: "",
+      },
+      {
+        name: "ODTU KKK Resmi Sitesi",
+        link: "https://ncc.metu.edu.tr/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Topluluk",
     links: [
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Partnerlerimiz",
+        link: "",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "",
       },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+
     ],
   },
   {
-    title: "Partner",
+    title: "Partnerler",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Partnerlerimiz",
+        link: "",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Partnerimiz ol",
+        link: "https://forms.gle/bkVyP5XdCR4cDoG79",
       },
     ],
   },
@@ -145,18 +175,13 @@ export const socialMedia = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: linkedin,
+    link: "https://www.linkedin.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: github,
+    link: "https://www.github.com/",
   },
 ];
 

@@ -5,23 +5,21 @@ import UlasimdaYapayZeka from "./ulasimdaYapayZeka.jsx";
 import styles from "../style.js";
 import JetMotoru from "./jetMotoru.jsx";
 import Helikopter from "./helikopter.jsx";
-const homeTab = () => (
+const Ekiplerimiz = () => (
     <section>
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
             <h2 className={styles.heading2}>
                 Ekiplerimiz <br className="sm:block hidden" />
             </h2>
-            <div className="w-full md:mt-0 mt-6">
-                <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-                    Bir ekip, farklı yeteneklerin birleşimiyle sadece işleri değil, aynı zamanda hayalleri de gerçeğe dönüştürür.
-                </p>
-            </div>
+
         </div>
         <Tabs className="justify-center text-white">
             <TabList className="ml-3 mr-3">
                 <Tab>Ulaşımda Yapay Zeka</Tab>
-                <Tab>Jet Motoru Tasarimi</Tab>
-                <Tab>Helikopter Tasarimi</Tab>
+                <Tab>Jet Motoru Tasarımı</Tab>
+                <Tab>Helikopter Tasarımı</Tab>
+                <Tab>Psikolojide Teknoloji</Tab>
+                <Tab>İnsanlık Yararına Teknoloji Yarışması</Tab>
             </TabList>
 
             <TabPanel>
@@ -36,4 +34,4 @@ const homeTab = () => (
         </Tabs>
     </section>
 );
-export default homeTab;
+export default Ekiplerimiz;
