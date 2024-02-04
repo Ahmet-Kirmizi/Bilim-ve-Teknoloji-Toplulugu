@@ -7,7 +7,7 @@ import ayse from "../assets/helikopter/ayse_sude_guner.jpg"
 import yaren from "../assets/helikopter/yaren_elis.jpeg"
 import goals from "../assets/goals.png"
 import community from "../assets/community.png"
-import github from "../assets/github.png"
+import github from "../assets/github-mark-white.svg"
 export const navLinks = [
   {
     id: "home",
