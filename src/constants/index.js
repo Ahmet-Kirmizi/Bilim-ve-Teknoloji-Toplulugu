@@ -1,4 +1,4 @@
-import { people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 import ahmet from "../assets/ulasimdayapayzeka/ahmet.jpeg";
 import arda from "../assets/ulasimdayapayzeka/arda.jpeg";
 import cagan from "../assets/jet/cagan_yunus_mayda.jpeg"

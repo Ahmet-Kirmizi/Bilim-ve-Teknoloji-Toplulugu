@@ -8,10 +8,11 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Ekiplerimiz from "./components/homeTab.jsx";
 import YoutubeEmbed from "./components/iframe.jsx";
+import AnimatedCursor from "react-animated-cursor";
 
 const App = () => (
 
-        <div className="bg-primary w-full overflow-hidden">
+        <div className="bg-primary w-full overflow-hidden ">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Navbar/>

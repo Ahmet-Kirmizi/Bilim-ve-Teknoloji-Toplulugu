@@ -6,7 +6,7 @@
 
 :root {
   overflow-y: scroll;
-
+  ;
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
@@ -15,7 +15,13 @@
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
+html {
+  --cursor-color: #00e1ff
+}
 
+html.dark-mode {
+  --cursor-color: #fff
+}
 * {
 }
 :root::-webkit-scrollbar{
@@ -145,4 +151,14 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+@media screen and (max-width: 768px) {
+  html {
+    --cursor-color: transparent;
+  }
+
+  html.dark-mode {
+    --cursor-color: transparent;
+  }
+
 }
