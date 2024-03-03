@@ -9,6 +9,7 @@ import ReactDOM from "react-dom/client";
 import Ekiplerimiz from "./components/homeTab.jsx";
 import YoutubeEmbed from "./components/iframe.jsx";
 import AnimatedCursor from "react-animated-cursor";
+import SimpleMap from "./components/ourLocation.jsx";
 
 const App = () => (
 
@@ -24,13 +25,13 @@ const App = () => (
                     <Intro/>
                 </div>
             </div>
-
             <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Business/>
                     <Ekiplerimiz></Ekiplerimiz>
-                    {/*<YoutubeEmbed embedId={"KCMH7nSjUb0"}></YoutubeEmbed>*/}
+                    {/*<YoutubeEmbed embedId={"Q1SiXEafFXE"}></YoutubeEmbed>*/}
                     <JoinUsForm/>
+                    {/*<SimpleMap/>*/}
                     <Footer/>
                 </div>
             </div>

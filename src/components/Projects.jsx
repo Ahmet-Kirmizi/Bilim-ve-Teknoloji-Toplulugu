@@ -1,5 +1,5 @@
 import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+import CrewCard from "./crewCard.jsx";
 
 const Projects = () => (
     <section id="projects" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
