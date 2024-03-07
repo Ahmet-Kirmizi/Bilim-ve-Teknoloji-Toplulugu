@@ -3,8 +3,11 @@ import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 import { useLottie } from "lottie-react";
 import technologyLottie from "../lottie_assets/technologyLottie.json"
+import {useTranslation} from "react-i18next";
 const Intro = () => {
-  const options = {
+    const { t } = useTranslation();
+
+    const options = {
     animationData: technologyLottie,
     loop: true
   };
@@ -16,8 +19,8 @@ const Intro = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Bilim ve <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Teknoloji</span>{" "}
+              {t('science')}<br className="sm:block hidden" />{" "}
+            <span className="text-gradient">{t('technology')}</span>{" "}
           </h1>
           {/*<div className="ss:flex hidden md:mr-4 mr-0">*/}
           {/*  <GetStarted />*/}
@@ -25,7 +28,7 @@ const Intro = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          Toplulugu.
+            {t('society')}
         </h1>
 
       </div>

@@ -14,7 +14,6 @@ class JoinUsForm extends Component {
         phone: "",
         department: "",
         extra_info: "",
-        branch: "",
     };
 
     handleInputChange = (e) => {
@@ -27,7 +26,16 @@ class JoinUsForm extends Component {
         e.preventDefault();
 
         try {
-            const response = await axios.post("http://127.0.0.1:8000/api/submitForm", this.state);
+            const formData = {
+                "entry.2005620554": this.state.name + " " + this.state.surname,
+                "entry.1065046570": this.state.email,
+                "entry.792926379": this.state.phone,
+                "entry.768122602": this.state.department,
+                "entry.839337160": this.state.extra_info,
+                "entry.1215513980": this.state.branch,
+                "entry.1045781291": this.state.student_no,
+            }
+            const response = await axios.post("https://docs.google.com/forms/u/0/d/e/1FAIpQLSf7FieScJGyIFSgnOwtkzGU6r5CJw6shNttmgGmxsV9wu9f2A/formResponse", formData);
             console.log(response.data);
             this.setState({
                 name: "",
