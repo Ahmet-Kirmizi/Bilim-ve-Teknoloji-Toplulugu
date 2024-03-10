@@ -3,7 +3,7 @@ import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
-
+import "/node_modules/flag-icons/css/flag-icons.min.css";
 
 const Navbar = () => {
     const { t } = useTranslation();
@@ -29,16 +29,16 @@ const Navbar = () => {
         ))}
       </ul>
         <div className="flex  select-none" >
-            <div className="flex flex-row items-center right-1 pl-2 ">
-                <button className="p-2 flex flex-row items-center text-sm font-medium text-gray-700"
+            <div className="flex flex-row items-center right-1 pl-4 ">
+                <button className="p-2 flex flex-row items-center"
                         onClick={() => changeLanguage('en')} >
-                    <span className="ml-1"> <img src="https://img.icons8.com/?size=512&id=t3NE3BsOAQwq&format=png" className="w-5 h-5"  alt="en"/></span>
+                    <span className="ml-1"> <span className="fi fi-gb"></span></span>
                 </button>
 
-                <button className="p-2 flex flex-row items-center  text-sm font-medium text-gray-700 "
+                <button className="p-2 flex flex-row items-center"
                         onClick={() => changeLanguage('tr')}
                 >
-                    <span className="ml-1"> <img src="https://img.icons8.com/?size=512&id=7PhX5XSLeDb9&format=png" className="w-5 h-5"  alt="tr"/></span>
+                    <span className="ml-1"> <span className="fi fi-tr"></span></span>
                 </button>
             </div>
 
