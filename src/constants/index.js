@@ -138,6 +138,7 @@ export const jetMotoru = [
         name: "Süleyman Can Pişgin",
         title: "Ekip Uyesi",
         img: can,
+        link: "https://www.linkedin.com/in/s%C3%BCleyman-can-pi%C5%9Fgin-39a007243/"
   },
       {
         id: "Ömer güçlü Yaşa",
