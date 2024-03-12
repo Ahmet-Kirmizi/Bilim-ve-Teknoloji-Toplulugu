@@ -1,6 +1,6 @@
 import styles from "../style";
 import { footerLinks, socialMedia } from "../constants";
-import logoNew from "../assets/logo.svg";
+import logoNew from "../assets/static/logo.svg";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-2 w-full`}>

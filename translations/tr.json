@@ -1,5 +1,9 @@
 {
   "science" : "Bilim ve",
   "technology" : "Teknoloji",
-  "society" : "Topluluğu."
+  "society" : "Topluluğu.",
+  "decline" : "reddet",
+  "accept" : "kabul et",
+  "privacyPolicyTitle" : "Kişisel Verilerin Korunmasıyla İlgili Maddeler",
+  "privacyPolicyQuestion" : "KVKK ve GDPRI okudum ve kabul ediyorum."
 }

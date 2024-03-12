@@ -10,6 +10,7 @@ import Ekiplerimiz from "./components/homeTab.jsx";
 import YoutubeEmbed from "./components/iframe.jsx";
 import AnimatedCursor from "react-animated-cursor";
 import SimpleMap from "./components/ourLocation.jsx";
+import PrivacyPolicy from "./components/privacyPolicy.jsx";
 
 const App = () => (
 
@@ -32,6 +33,7 @@ const App = () => (
                     {/*<YoutubeEmbed embedId={"Q1SiXEafFXE"}></YoutubeEmbed>*/}
                     <JoinUsForm/>
                     {/*<SimpleMap/>*/}
+                    <PrivacyPolicy></PrivacyPolicy>
                     <Footer/>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
+import { close, logo, menu } from "../assets/static/index.js";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 import "/node_modules/flag-icons/css/flag-icons.min.css";

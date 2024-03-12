@@ -5,6 +5,7 @@ import UlasimdaYapayZeka from "./ulasimdaYapayZeka.jsx";
 import styles from "../style.js";
 import JetMotoru from "./jetMotoru.jsx";
 import Helikopter from "./helikopter.jsx";
+import Psikoloji from "./psikoloji.jsx";
 const Ekiplerimiz = () => (
     <section>
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
@@ -30,6 +31,9 @@ const Ekiplerimiz = () => (
             </TabPanel>
             <TabPanel>
                 <Helikopter></Helikopter>
+            </TabPanel>
+            <TabPanel>
+                <Psikoloji/>
             </TabPanel>
         </Tabs>
     </section>

@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, twitter, airbnb, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, airbnb, coinbase, dropbox, send, shield, star  } from "../assets/static/index.js";
 import ahmet from "../assets/ulasimdayapayzeka/ahmet.jpeg";
 import arda from "../assets/ulasimdayapayzeka/arda.jpeg";
 import fatma from "../assets/ulasimdayapayzeka/fatma.jpeg";
@@ -20,9 +20,21 @@ import yusuf from "../assets/helikopter/Yusuf_Efe_Ramazan.jpg"
 import berk from "../assets/helikopter/berk.png"
 import kurban from "../assets/helikopter/kurban.png"
 import atakan from "../assets/helikopter/atakan.png"
-import goals from "../assets/goals.png"
-import community from "../assets/community.png"
-import github from "../assets/github-mark-white.svg"
+import goals from "../assets/static/goals.png"
+import community from "../assets/static/community.png"
+import github from "../assets/static/github-mark-white.svg"
+
+
+import alperen from "../assets/psikoloji/Alperen_iner.jpg"
+import damla from "../assets/psikoloji/Damla_catırlar.jpg"
+import defne from "../assets/psikoloji/Defne_Deniz_Kayapınar.jpg"
+import gulay from "../assets/psikoloji/Gülay_Yıldırım.jpg"
+import irem from "../assets/psikoloji/Irem_Atilla.jpg"
+import nehir from "../assets/psikoloji/Nehir_cetin.jpg"
+import tarik from "../assets/psikoloji/Tarık_Alp_Dinçsoy.jpg"
+import ummulhan from "../assets/psikoloji/Ümmühan_Gülsüm_sentürk.jpg"
+
+
 export const navLinks = [
   {
     id: "home",
@@ -177,8 +189,8 @@ export const jetMotoru = [
     img: doga,
   },
 
-]
-;export const helikopter = [
+];
+export const helikopter = [
 
   {
     id: "Ayse Sude Guner",
@@ -250,7 +262,73 @@ export const jetMotoru = [
   },
 
 ];
-
+export const psikoloji = [
+  {
+    id: "Yunus Emre Yıldız",
+    content:
+        "Takım Lideri",
+    name: "Yunus Emre Yıldız",
+    title: "Ekip Uyesi",
+    img: yunus,
+  },
+  {
+    id: "Alperen İner",
+    content:
+        "Literatür araştırmacısı.",
+    name: " Alperen İner",
+    title: "Ekip Uyesi",
+    img: alperen,
+  },  {
+    id: "Damla Çatırlar",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Damla Çatırlar",
+    title: "Ekip Uyesi",
+    img: damla,
+  },  {
+    id: "Defne Deniz Kayapınar",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Defne Deniz Kayapınar",
+    title: "Ekip Uyesi",
+    img: defne,
+  },  {
+    id: "Gülay Yıldırım",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Gülay Yıldırım",
+    title: "Ekip Uyesi",
+    img: gulay,
+  },  {
+    id: "İrem Atilla",
+    content:
+        "Literatür araştırmacısı.",
+    name: "İrem Atilla",
+    title: "Ekip Uyesi",
+    img: irem,
+  },  {
+    id: "Nehir Çetin",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Nehir Çetin",
+    title: "Ekip Uyesi",
+    img: nehir,
+  },  {
+    id: "Tarık Alp Dinçsoy",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Tarık Alp Dinçsoy",
+    title: "Ekip Uyesi",
+    img:tarik,
+  },  {
+    id: "Ümmühan Gülsüm Şentürk",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Ümmühan Gülsüm Şentürk",
+    title: "Ekip Uyesi",
+    img: ummulhan,
+  },
+    ];
 export const stats = [
   {
     id: "stats-1",
@@ -321,7 +399,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/science-and-technology-society-56a4412a2",
   },
   {
     id: "social-media-3",

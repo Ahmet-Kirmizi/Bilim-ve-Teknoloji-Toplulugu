@@ -1,5 +1,9 @@
 {
   "science" : "Science and",
   "technology" : "Technology",
-  "society" : "Society."
+  "society" : "Society.",
+  "decline" : "Decline",
+  "accept" : "Accept",
+  "privacyPolicyTitle" : "Privacy Policy",
+  "privacyPolicyQuestion" : "I have read and accept the privacy policy"
 }

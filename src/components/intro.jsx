@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot } from "../assets/static/index.js";
 import GetStarted from "./GetStarted";
 import { useLottie } from "lottie-react";
 import technologyLottie from "../lottie_assets/technologyLottie.json"

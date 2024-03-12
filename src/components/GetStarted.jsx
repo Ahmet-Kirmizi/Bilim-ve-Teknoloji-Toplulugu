@@ -1,5 +1,5 @@
 import styles from "../style";
-import { arrowUp } from "../assets";
+import { arrowUp } from "../assets/static/index.js";
 
 const GetStarted = () => (
   <div className={`${styles.flexCenter} w-[180px] h-[180px] rounded-full bg-blue-gradient p-[2px] cursor-pointer`}>
