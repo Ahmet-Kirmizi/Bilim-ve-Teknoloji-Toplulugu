@@ -35,7 +35,33 @@ import tarik from "../assets/psikoloji/Tarık_Alp_Dinçsoy.jpg"
 import ummulhan from "../assets/psikoloji/Ümmühan_Gülsüm_sentürk.jpg"
 
 
-export const navLinks = [
+import batuhan from "../assets/insanlikyararina/Batuhan_celik.jpg"
+import berk_evren from "../assets/insanlikyararina/Berk_evren.jpg"
+import rahmatullah from "../assets/insanlikyararina/Rahmatullah_Ronahi_Erdem.jpg"
+import rifat from "../assets/insanlikyararina/Rifat_Güvence.jpg"
+
+
+
+import i18n from "i18next";
+import {initReactI18next} from "react-i18next";
+import enTranslation from "../../translations/en.json";
+import trTranslation from "../../translations/tr.json";
+
+i18n
+    .use(initReactI18next)
+    .init({
+      resources: {
+        en: { translation: enTranslation },
+        tr: { translation: trTranslation }
+      },
+      lng: 'tr',
+      fallbackLng: 'tr',
+      interpolation: {
+        escapeValue: false
+      }
+    });
+
+export var  navLinks = [
   {
     id: "home",
     title: "Ana Sayfa",
@@ -330,6 +356,61 @@ export const psikoloji = [
     img: ummulhan,
   },
     ];
+
+export const insanlikyararina = [
+  {
+    id: "Batuhan Çelik",
+    content:
+        "Takım Lideri",
+    name: "Batuhan Çelik",
+    title: "Takım Lideri",
+    img: batuhan,
+  },
+  {
+    id: "Yunus Emre Yıldız",
+    content:
+        "Rapor yazımı ve sunum hazırlama.",
+    name: "Yunus Emre Yıldız",
+    title: "Yardımcı  Lideri",
+    img: yunus,
+  },
+  {
+    id: "Berk Evren",
+    content:
+        "Pazar araştırmacısı.",
+    name: "Berk Evren",
+    title: "Ekip Uyesi",
+    img: berk_evren,
+  },  {
+    id: "Rahmatullah Ronahi Erdem",
+    content:
+        "Pazar araştırmacısı.",
+    name: "Rahmatullah Ronahi Erdem",
+    title: "Ekip Uyesi",
+    img: rahmatullah,
+  },  {
+    id: "Rıfat Güvence",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Rıfat Güvence",
+    title: "Ekip Uyesi",
+    img: rifat,
+  },  {
+    id: "Utku Kalkan",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Utku Kalkan",
+    title: "Ekip Uyesi",
+    img: fatma,
+  },  {
+    id: "Kaan Bilgiç",
+    content:
+        "Literatür araştırmacısı.",
+    name: "Kaan Bilgiç",
+    title: "Ekip Uyesi",
+    img: fatma,
+  }
+];
 export const stats = [
   {
     id: "stats-1",
@@ -350,7 +431,7 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Kullanışlı Linkler",
+    title: i18n.t('foot_useful_links'),
     links: [
       {
         name: "Haklar ve Servisler",
