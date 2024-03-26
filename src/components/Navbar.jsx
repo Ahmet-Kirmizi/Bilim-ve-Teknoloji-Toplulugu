@@ -28,21 +28,21 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-        <div className="flex  select-none" >
-            <div className="flex flex-row items-center right-1 pl-4 ">
-                <button className="p-2 flex flex-row items-center"
-                        onClick={() => changeLanguage('en')} >
-                    <span className="ml-1"> <span className="fi fi-gb"></span></span>
-                </button>
+        {/*<div className="flex  select-none" >*/}
+        {/*    <div className="flex flex-row items-center right-1 pl-4 ">*/}
+        {/*        <button className="p-2 flex flex-row items-center"*/}
+        {/*                onClick={() => changeLanguage('en')} >*/}
+        {/*            <span className="ml-1"> <span className="fi fi-gb"></span></span>*/}
+        {/*        </button>*/}
 
-                <button className="p-2 flex flex-row items-center"
-                        onClick={() => changeLanguage('tr')}
-                >
-                    <span className="ml-1"> <span className="fi fi-tr"></span></span>
-                </button>
-            </div>
+        {/*        <button className="p-2 flex flex-row items-center"*/}
+        {/*                onClick={() => changeLanguage('tr')}*/}
+        {/*        >*/}
+        {/*            <span className="ml-1"> <span className="fi fi-tr"></span></span>*/}
+        {/*        </button>*/}
+        {/*    </div>*/}
 
-        </div>
+        {/*</div>*/}
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
