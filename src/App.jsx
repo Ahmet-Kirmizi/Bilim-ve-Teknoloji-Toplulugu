@@ -30,10 +30,10 @@ const App = () => (
                 <div className={`${styles.boxWidth}`}>
                     <Business/>
                     <Ekiplerimiz></Ekiplerimiz>
-                    {/*<YoutubeEmbed embedId={"Q1SiXEafFXE"}></YoutubeEmbed>*/}
+                    <YoutubeEmbed embedId={"Q1SiXEafFXE"}></YoutubeEmbed>
                     <JoinUsForm/>
                     {/*<SimpleMap/>*/}
-                    <PrivacyPolicy></PrivacyPolicy>
+                    {/*<PrivacyPolicy></PrivacyPolicy>*/}
                     <Footer/>
                 </div>
             </div>

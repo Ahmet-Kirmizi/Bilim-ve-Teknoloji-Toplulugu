@@ -63,17 +63,21 @@ i18n
 
 export var  navLinks = [
   {
-    id: "home",
+    id: "../",
     title: "Ana Sayfa",
   },
 
   {
-    id: "crew",
+    id: "../#crew",
     title: "Ekibimiz",
   },
   {
-    id: "projects",
+    id: "../#projects",
     title: "Projelerimiz",
+  },
+  {
+    id: "academic",
+    title: "Akademik",
   },
 
 ];
@@ -503,4 +507,26 @@ export const clients = [
     id: "client-4",
     logo: dropbox,
   },
+];
+
+export const videoData = [
+  {
+    embedId: "4Y4YSpF6d6w",
+    title: "jack black",
+  },
+  {
+    embedId: "Q1SiXEafFXE",
+    title: "Academic Videos",
+  },
+  {
+    embedId: "4Y4YSpF6d6w",
+    title: "Yarrak",
+  },
+  {
+    embedId: "Q1SiXEafFXE",
+    title: "Buddi",
+  } , {
+    embedId: "Q1SiXEafFXE",
+    title: "jack black",
+  }
 ];

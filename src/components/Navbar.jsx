@@ -4,6 +4,7 @@ import { close, logo, menu } from "../assets/static/index.js";
 import { navLinks } from "../constants";
 import {useTranslation} from "react-i18next";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
     const { t } = useTranslation();
@@ -24,7 +25,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-white text-[16px] hover:text-secondary selection:text-secondary 
              ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={nav.id}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -68,6 +69,7 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+
           </ul>
         </div>
       </div>
